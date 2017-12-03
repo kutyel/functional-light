@@ -1,4 +1,4 @@
-const mult = (x, y, ...nums) => (!nums.length ? x * y : x * mult(y, ...nums))
+const mult = (x, ...nums) => (!nums.length ? x : x * mult(...nums))
 
 console.log(mult(3, 4, 5)) // 60
 
