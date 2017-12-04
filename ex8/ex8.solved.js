@@ -7,7 +7,6 @@ const curry = (f, arr = []) => (...args) =>
 const pipe = (...fns) => compose(...fns.reverse())
 
 //#endregion
-
 //#region
 
 const isOdd = v => v % 2 == 1
@@ -17,7 +16,6 @@ const listSum = list => list.reduce(sum, 0)
 const listProduct = list => list.reduce(mult, 1)
 
 //#endregion
-
 //#region
 
 const mapObj = (f, o) =>
@@ -42,6 +40,8 @@ const nums = {
   second: [5, 7, 7, 9, 10, 4, 2],
   third: [1, 1, 3, 2],
 }
+
+// Ugly original code..
 
 const filteredNums = filterObj(list => isOdd(listSum(list)), nums)
 
