@@ -1,0 +1,23 @@
+{
+  "name": "functional-light",
+  "version": "1.0.0",
+  "description": "My solution to the Functional Light JavaScript Course!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kutyel/functional-light.git"
+  },
+  "keywords": ["functional-light", "functional-programming", "fp", "rxjs"],
+  "author": "kutyel <flaviocorpa@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kutyel/functional-light/issues"
+  },
+  "homepage": "https://github.com/kutyel/functional-light#readme",
+  "dependencies": {
+    "rxjs": "^5.5.3"
+  }
+}
