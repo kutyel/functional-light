@@ -19,4 +19,4 @@ const fns = data
   .filter(isEven)
   .map(f)
 
-console.log(addn(fns)) // 182
+module.exports = { add, add2, addn, f, fns, isEven }

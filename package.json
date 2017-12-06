@@ -10,7 +10,12 @@
     "type": "git",
     "url": "git+https://github.com/kutyel/functional-light.git"
   },
-  "keywords": ["functional-light", "functional-programming", "fp", "rxjs"],
+  "keywords": [
+    "functional-light",
+    "functional-programming",
+    "fp",
+    "rxjs"
+  ],
   "author": "kutyel <flaviocorpa@gmail.com>",
   "license": "MIT",
   "bugs": {
@@ -19,5 +24,8 @@
   "homepage": "https://github.com/kutyel/functional-light#readme",
   "dependencies": {
     "rxjs": "^5.5.3"
+  },
+  "devDependencies": {
+    "expect": "^21.2.1"
   }
 }
