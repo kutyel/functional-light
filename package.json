@@ -4,18 +4,13 @@
   "description": "My solution to the Functional Light JavaScript Course!",
   "main": "index.js",
   "scripts": {
-    "test": "node ./ex7/ex7.test.js"
+    "test": "node ex7.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kutyel/functional-light.git"
   },
-  "keywords": [
-    "functional-light",
-    "functional-programming",
-    "fp",
-    "rxjs"
-  ],
+  "keywords": ["functional-light", "functional-programming", "fp", "rxjs"],
   "author": "kutyel <flaviocorpa@gmail.com>",
   "license": "MIT",
   "bugs": {
