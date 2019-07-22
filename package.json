@@ -21,6 +21,8 @@
     "rxjs": "^5.5.3"
   },
   "devDependencies": {
+    "braces": "^2.3.1",
+    "diff": "^3.5.0",
     "expect": "^21.2.1"
   }
 }
